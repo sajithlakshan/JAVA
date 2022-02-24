@@ -32,6 +32,9 @@ public class INH {
 
 
         car C1 =new car();
+        C1.brand = "SEL";
+        C1.Gos  = "Yakkala";
+        C1.Park = "kokoma";
         C1.color = "Jemini";
         C1.Remove_Tiar();
 
