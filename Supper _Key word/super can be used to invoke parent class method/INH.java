@@ -13,7 +13,7 @@ class Dog extends Animal{
         bark();
     }
 }
-class TestSuper2{
+class INH{
     public static void main(String args[]){
         Dog d=new Dog();
         d.work();
