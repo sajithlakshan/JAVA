@@ -36,6 +36,8 @@ public class INH {
         C1.Gos  = "Yakkala";
         C1.Park = "kokoma";
         C1.color = "Jemini";
+//We canot access this : Becouse  -- private
+//      C1.breal ="DOmi";
         C1.Remove_Tiar();
 
     }
