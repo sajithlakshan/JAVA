@@ -1,5 +1,5 @@
 class  Parent{
-    void PrintData() {
+    void SOMIN() {
         System.out.println("method of parent class");
     }
 }
@@ -11,10 +11,17 @@ class Child extends Parent {
 }
 class INH{
     public static void main(String args[]) {
-
+//Upcasting
         Parent obj1 = (Parent) new Child();
-        Parent obj2 = (Parent) new Child();
-        obj1.PrintData();
-        obj2.PrintData();
+        obj1.SOMIN();
+ //Thhis is not work
+//        obj1.PrintData();
+
+
+
+
+// Downcasting
+        Child c = (Child) obj1;
+        c.PrintData();
     }
 }
