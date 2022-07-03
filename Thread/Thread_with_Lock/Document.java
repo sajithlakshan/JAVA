@@ -1,7 +1,7 @@
 package Synchronization;
 
 public class Document {
-	public synchronized void update(Document ob) {
+	public  void update(Document ob) {
 		
 		for(int x=0;x<10;x++)
 		{
